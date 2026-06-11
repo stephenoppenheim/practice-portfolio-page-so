@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #c1dfea;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+header h1 {
+    margin-left: 70px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    width: 70%;
+    padding: 20px 0px;
+    background-color: #faf9e8;
+    border: 3px double black;
+    border-radius: 50px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+
+.contact-me form {
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me input, .contact-me textarea {
+    font-size: 16px;
+}
+
+.form-line {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.form-line input:nth-of-type(1) {
+    margin: 0px 6px 12px 0px;
+}
+
+.form-line input:nth-of-type(2) {
+    margin: 0px 0px 12px 6px;
+}
+
+.about-me p {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.sr-only {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.form-line input {
+    height: 20px;
+}
+
+.form-input {
+    width: 50%;
+    padding: 15px 10px
+}
+
+#message {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+}
+
+.about-me {
+    margin: 20px 0px;
+}
+
+.skills {
+    margin: 20px 0px;
+}
+
+.skills table td {
+    text-align: center;
+    padding: 10px
+}
+
+.contact-me button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.bottom-link {
+    margin: 7px;
+}
+
+#e-logo {
+    height: 40px;
+}
+
+#gh-logo, #li-logo {
+    height: 30px;
+}
+
+.li-link {
+    margin: 14px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
